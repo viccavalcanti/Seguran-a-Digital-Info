@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css?family=Popins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popins', sans-serif;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logoUMC {
+    color: #370171;
+    font-weight: 600;
+    margin-left: -850px;
+    font-size: 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+header .logo {
+    position: relative;
+    max-width: 80px;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+
+}
+
+header ul li a {
+    display: inline-block;
+    color: #333;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .textBox {
+    position: relative;
+    max-width: 600px;
+}
+
+.content .textBox h2 {
+    color: #333;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+
+.content .textBox h2 span {
+    color: #017143;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.content .textBox p {
+    color: #333;
+}
+
+.content .textBox a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #017143;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.content .imgBox {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-right: -60px;
+    margin-top: 50px;
+}
+
+.content .imgBox img {
+    max-width: 600px;
+}
+
+
+.thumb {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.thumb li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.thumb li:hover {
+    transform: translate(-15px);
+}
+
+.thumb li img {
+    max-width: 60px;
+}
+
+.sci {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sci li {
+    list-style: none;
+}
+
+.sci li a {
+    display: inline-block;
+    margin: 5px 0;
+    transform: scale(0.6);
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #017143;
+    clip-path: circle(600px at right 800px);
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.col-1 {
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 50px;
+}
+
+.col-1 h2 {
+    color: #333;
+    font-size: 2.5em;
+    line-height: 1.1em;
+    font-weight: 500;
+}
+
+.col-1 h3 {
+    font-size: 23px;
+    color: #707070;
+    font-weight: 100;
+    margin: 20px 0 10px;
+}
+
+.col-1 p {
+    margin: 30px 0;
+    font-size: 20px;
+}
+
+.col-1 ::after {
+    content: '';
+    width: 10px;
+    height: 57%;
+    background: linear-gradient(#2ECC71, #239B56);
+    position: absolute;
+    left: -40px;
+    top: 8px;
+}
+
+.col-2 {
+    position: relative;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.col-2 .wp {
+    margin-left: 300px;
+    width: 40%;
+}
+
+.color-box {
+    position: absolute;
+    margin-right: 100px;
+    right: 0;
+    top: 0;
+    background: linear-gradient(#27F51D, #239B56);
+    border-radius: 20px 0 0 20px;
+    height: 100%;
+    width: 50%;
+    z-index: -1;
+    transform: translateX(100px);
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 50vh;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+    border-radius: 20px;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card:hover {
+    width: 600px;
+    transition-delay: 0s;
+}
+
+.card .circle2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .circle2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--clr);
+    clip-path: circle(120px at center);
+    transition: 0.5s;
+}
+
+.card:hover .circle2::before {
+    clip-path: circle(400px at center);
+}
+
+.card .circle2 .logo2 {
+    position: relative;
+    width: 200px;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+}
+
+.card:hover .circle2 .logo2 {
+    transform: scale(0);
+    transition-delay: 0s;
+
+}
+
+.content2 {
+    position: relative;
+    width: 50%;
+    left: 20%;
+    padding: 20px 20px 20px 40px;
+    opacity: 0;
+    transition: 0.5s;
+    visibility: hidden;
+}
+
+.card:hover .content2 {
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.5s;
+}
+
+.content2 h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    line-height: 1em;
+}
+
+.content2 p {
+    color: #fff;
+}
+
+.content2 a {
+    position: relative;
+    color: #111;
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.card .product_img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    height: 400px;
+    transition: 0.5s;
+}
+
+.card:hover .product_img {
+    left: 72%;
+    transform: translate(-50%, -50%) scale(1);
+    transition-delay: 0.5s;
+}
+
+.card .product_img2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    height: 300px;
+    transition: 0.5s;
+}
+
+.card:hover .product_img2 {
+    left: 72%;
+    transform: translate(-50%, -50%) scale(1);
+    transition-delay: 0.5s;
+}
+
+.card .product_img3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    height: 200px;
+    transition: 0.5s;
+}
+
+.card:hover .product_img3 {
+    left: 72%;
+    transform: translate(-50%, -50%) scale(1);
+    transition-delay: 0.5s;
+}
+
+.card .product_img4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    height: 400px;
+    transition: 0.5s;
+}
+
+.card:hover .product_img4 {
+    left: 42%;
+    transform: translate(-50%, -50%) scale(1);
+    transition-delay: 0.5s;
+}
+
+.name {
+    margin-top: 10%;
+}
+
+.logoFim {
+    color: #370171;
+    font-weight: 600;
+    position: absolute;
+    align-items: center;
+    margin-left: 49%;
+    font-size: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.logoFim2 {
+    color: #036301;
+    font-weight: 300;
+    position: absolute;
+    align-items: center;
+    margin-left: 20%;
+    font-size: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 4%;
+
+}
+
+.logo-Fim {
+    position: relative;
+    max-width: 60px;
+    margin-left: 50%;
+    margin-top: 0%;
+}
