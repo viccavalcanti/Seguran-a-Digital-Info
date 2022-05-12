@@ -19,4 +19,4 @@
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS);
 
 
-<p align="center" style="margin-top: 20px; border-top: 1px solid #eee; padding-top: 20px;"><strong> 📕 Projeto realizado para disciplina de Segurança da Informação -UMC Tecnologo de analise e desenvolvimento de sistemas 📗 </strong> 
+<p align="center" style="margin-top: 20px; border-top: 1px solid #eee; padding-top: 20px;"><strong> 📕 Projeto realizado para disciplina de Segurança da Informação - UMC Tecnólogo de análise e desenvolvimento de sistemas 📗 </strong> 
