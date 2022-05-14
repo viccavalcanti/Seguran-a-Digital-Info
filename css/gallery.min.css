@@ -1,6 +1,6 @@
 .gallery .control-operator:target~.controls .control-button {
-    color: rgb(253, 6, 6);
-    color: rgba(253, 7, 7, 0.4)
+    color: rgb(0, 0, 0);
+    color: rgba(100, 100, 100, 0.4)
 }
 
 .gallery .control-button:first-of-type,
@@ -9,8 +9,8 @@
 .gallery .control-operator:nth-of-type(3):target~.controls .control-button:nth-of-type(3),
 .gallery .control-operator:nth-of-type(4):target~.controls .control-button:nth-of-type(4),
 .gallery .control-operator:nth-of-type(5):target~.controls .control-button:nth-of-type(5) {
-    color: #fff;
-    color: rgba(255, 255, 255, .8)
+    color: rgb(4, 0, 0);
+    color: rgb(9, 7, 7)
 }
 
 .gallery .item:first-of-type {
@@ -20,6 +20,7 @@
 }
 
 .gallery .item {
+    background-color: #d9d9d4;
     position: absolute;
     top: 0;
     left: 0;
@@ -298,6 +299,7 @@
     }
 }
 
+
 .gallery .control-operator:nth-of-type(1):target~.item:nth-of-type(1) {
     pointer-events: auto;
     opacity: 1
@@ -322,7 +324,10 @@
     pointer-events: auto;
     opacity: 1
 }
-
+.gallery .control-operator:nth-of-type(6):target~.item:nth-of-type(6) {
+    pointer-events: auto;
+    opacity: 1
+}
 .items-5.autoplay .control-button {
     animation: controlAnimation-5 35s infinite
 }
@@ -353,5 +358,9 @@
 
 .items-5 .control-button:nth-of-type(5),
 .items-5 .item:nth-of-type(5) {
+    animation-delay: 26s
+}
+.items-5 .control-button:nth-of-type(6),
+.items-5 .item:nth-of-type(6) {
     animation-delay: 26s
 }

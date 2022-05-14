@@ -1,6 +1,6 @@
 .gallery .control-button {
-  color: rgb(251, 14, 14);
-  color: rgba(247, 10, 10, 0.4);
+  color: rgb(14, 13, 13);
+  color: rgb(255, 255, 255);
 }
 
 .gallery .control-button:hover {
@@ -8,14 +8,11 @@
   color: rgba(255, 255, 255, 0.8);
 }
 
-/*
-	Theme controls how everything looks in Gallery CSS.
-*/
 .gallery {
   position: relative;
 }
 .gallery .item {
-  height: 400px;
+  height: 100%;
   overflow: hidden;
   text-align: center;
   background: #fdfdfd;

@@ -20,29 +20,31 @@ section {
 
 header {
     position: absolute;
-    top: 0;
+    top: 0px;
     left: 0;
     width: 100%;
     padding: 20px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: #fff;
 }
 
 header .logoUMC {
     color: #370171;
     font-weight: 600;
-    margin-left: -850px;
+    margin-left: 80px;
     font-size: 1.5em;
     text-decoration: none;
-    text-transform: uppercase;
     letter-spacing: 2px;
+    position: absolute;
 
 }
 
 header .logo {
     position: relative;
     max-width: 80px;
+    background: #fff;
 }
 
 header ul {
@@ -448,4 +450,147 @@ header ul li a {
     max-width: 60px;
     margin-left: 50%;
     margin-top: 0%;
+}
+
+@media (max-width: 1200px){
+    section{
+    width: 1000px;
+}
+}
+
+footer{
+    background-color: #017143;
+    padding-top: 5em;
+    padding-bottom: 40px;
+    border-top: 5px solid #fff;
+}
+
+.logo-footer
+{
+    position: relative;
+    max-width: 90px;
+}
+
+footer h2, footer p, footer a, footer span{
+    color: #D1D1D1;
+}
+
+footer h2{
+    font-weight: 200;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer li {
+    list-style: none;
+}
+
+.footer-box {
+    width: 31%;
+    padding: 1%;
+    float: left;
+}
+
+footer .wrapper:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.company-footer{
+    width: 80%;
+}
+
+.company-footer {
+    margin-top: 20px;
+}
+
+.company-footer h2
+{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.company-footer p{
+    margin-bottom: 20px;
+}
+
+.footer-list li {
+    margin-bottom: 15px;
+}
+
+.footer-list a {
+    transition: .5s;
+}
+
+.footer-list .image
+{
+    margin: 20px;
+}
+
+.footer-list a:hover {
+    color: #fff;
+}
+
+.footer-list li:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.info-footer 
+{
+    width: 70%;
+}
+.info-footer a
+{
+    color: rgb(10, 0, 0);
+    font-size: 15px;
+}
+
+
+.footer-list .footer-info-list span
+{
+    display: block;
+    float: none;
+}
+
+.footer-list li span 
+{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+}
+
+.footer-bottom 
+{
+    border-top: 1px solid #B2B2B2;
+}
+
+.footer-bottom p
+{
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.btn-fixed {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    visibility: hidden;
+}
+  
+.btn-fixed.visible
+{
+    visibility: visible;
+}
+
+.material-icons.md-48 
+{ font-size: 48px; 
+    color: #111;
 }
