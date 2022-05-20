@@ -31,3 +31,37 @@
   text-decoration: none;
   transition: color .1s;
 }
+
+.gallery2 .control-button {
+  color: rgb(14, 13, 13);
+  color: rgb(255, 255, 255);
+}
+
+.gallery2 .control-button:hover {
+  color: white;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.gallery2 {
+  position: relative;
+}
+.gallery2 .item {
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  background: #fdfdfd;
+}
+.gallery2 .controls {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.gallery2 .control-button {
+  display: inline-block;
+  margin: 0 .02em;
+  font-size: 3em;
+  text-align: center;
+  text-decoration: none;
+  transition: color .1s;
+}
