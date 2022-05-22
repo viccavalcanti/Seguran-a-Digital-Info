@@ -8,7 +8,16 @@
 .gallery2 .control-operator:nth-of-type(2):target~.controls .control-button:nth-of-type(2),
 .gallery2 .control-operator:nth-of-type(3):target~.controls .control-button:nth-of-type(3),
 .gallery2 .control-operator:nth-of-type(4):target~.controls .control-button:nth-of-type(4),
-.gallery2 .control-operator:nth-of-type(5):target~.controls .control-button:nth-of-type(5) {
+.gallery2 .control-operator:nth-of-type(5):target~.controls .control-button:nth-of-type(5), 
+.gallery2 .control-operator:nth-of-type(6):target~.controls .control-button:nth-of-type(6),
+.gallery2 .control-operator:nth-of-type(7):target~.controls .control-button:nth-of-type(7),
+.gallery2 .control-operator:nth-of-type(8):target~.controls .control-button:nth-of-type(8),
+.gallery2 .control-operator:nth-of-type(9):target~.controls .control-button:nth-of-type(9),
+.gallery2 .control-operator:nth-of-type(10):target~.controls .control-button:nth-of-type(10),
+.gallery2 .control-operator:nth-of-type(11):target~.controls .control-button:nth-of-type(11),
+.gallery2 .control-operator:nth-of-type(12):target~.controls .control-button:nth-of-type(12),
+.gallery2 .control-operator:nth-of-type(13):target~.controls .control-button:nth-of-type(13),
+.gallery2 .control-operator:nth-of-type(14):target~.controls .control-button:nth-of-type(14) {
     color: rgb(4, 0, 0);
     color: rgb(9, 7, 7)
 }
@@ -217,6 +226,7 @@
     }
 }
 
+
 .gallery2 .control-operator:nth-of-type(1):target~.item:nth-of-type(1) {
     pointer-events: auto;
     opacity: 1
@@ -236,6 +246,8 @@
     pointer-events: auto;
     opacity: 1
 }
+
+
 
 .items-4.autoplay .control-button {
     animation: controlAnimation-4 28s infinite
@@ -265,7 +277,8 @@
     animation-delay: 19s
 }
 
-@keyframes controlAnimation-5 {
+
+@keyframes controlAnimation-6 {
     0% {
         color: #ccc;
         color: rgba(255, 255, 255, .4)
@@ -284,7 +297,110 @@
     }
 }
 
-@keyframes gallery2Animation-5 {
+@keyframes gallery2Animation-6 {
+    0% {
+        opacity: 0
+    }
+
+    5.7%,
+    20% {
+        opacity: 1
+    }
+
+    25.7%,
+    100% {
+        opacity: 0
+    }
+}
+
+
+.gallery2 .control-operator:nth-of-type(1):target~.item:nth-of-type(1) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.gallery2 .control-operator:nth-of-type(2):target~.item:nth-of-type(2) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.gallery2 .control-operator:nth-of-type(3):target~.item:nth-of-type(3) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.gallery2 .control-operator:nth-of-type(4):target~.item:nth-of-type(4) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.gallery2 .control-operator:nth-of-type(5):target~.item:nth-of-type(5) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(6):target~.item:nth-of-type(6) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+
+.items-6.autoplay .control-button {
+    animation: controlAnimation-5 35s infinite
+}
+
+.items-6.autoplay .item {
+    animation: gallery2Animation-5 35s infinite
+}
+
+.items-6 .control-button:nth-of-type(1),
+.items-6 .item:nth-of-type(1) {
+    animation-delay: -2s
+}
+
+.items-6 .control-button:nth-of-type(2),
+.items-6 .item:nth-of-type(2) {
+    animation-delay: 5s
+}
+
+.items-6 .control-button:nth-of-type(3),
+.items-6 .item:nth-of-type(3) {
+    animation-delay: 12s
+}
+
+.items-6 .control-button:nth-of-type(4),
+.items-6 .item:nth-of-type(4) {
+    animation-delay: 19s
+}
+
+.items-6 .control-button:nth-of-type(5),
+.items-6 .item:nth-of-type(5) {
+    animation-delay: 26s
+}
+.items-6 .control-button:nth-of-type(6),
+.items-6 .item:nth-of-type(6) {
+    animation-delay: 26s
+}
+
+@keyframes controlAnimation-7 {
+    0% {
+        color: #ccc;
+        color: rgba(255, 255, 255, .4)
+    }
+
+    5.7%,
+    20% {
+        color: #fff;
+        color: rgba(255, 255, 255, .8)
+    }
+
+    25.7%,
+    100% {
+        color: #ccc;
+        color: rgba(255, 255, 255, .4)
+    }
+}
+
+@keyframes gallery2Animation-7 {
     0% {
         opacity: 0
     }
@@ -333,43 +449,1037 @@
     pointer-events: auto;
     opacity: 1
 }
-.items-5.autoplay .control-button {
+
+.items-7.autoplay .control-button {
     animation: controlAnimation-5 35s infinite
 }
 
-.items-5.autoplay .item {
+.items-7.autoplay .item {
     animation: gallery2Animation-5 35s infinite
 }
 
-.items-5 .control-button:nth-of-type(1),
-.items-5 .item:nth-of-type(1) {
+.items-7 .control-button:nth-of-type(1),
+.items-7 .item:nth-of-type(1) {
     animation-delay: -2s
 }
 
-.items-5 .control-button:nth-of-type(2),
-.items-5 .item:nth-of-type(2) {
+.items-7 .control-button:nth-of-type(2),
+.items-7 .item:nth-of-type(2) {
     animation-delay: 5s
 }
 
-.items-5 .control-button:nth-of-type(3),
-.items-5 .item:nth-of-type(3) {
+.items-7 .control-button:nth-of-type(3),
+.items-7 .item:nth-of-type(3) {
     animation-delay: 12s
 }
 
-.items-5 .control-button:nth-of-type(4),
-.items-5 .item:nth-of-type(4) {
+.items-7 .control-button:nth-of-type(4),
+.items-7 .item:nth-of-type(4) {
     animation-delay: 19s
 }
 
-.items-5 .control-button:nth-of-type(5),
-.items-5 .item:nth-of-type(5) {
+.items-7 .control-button:nth-of-type(5),
+.items-7 .item:nth-of-type(5) {
     animation-delay: 26s
 }
-.items-5 .control-button:nth-of-type(6),
-.items-5 .item:nth-of-type(6) {
+.items-7 .control-button:nth-of-type(6),
+.items-7 .item:nth-of-type(6) {
     animation-delay: 26s
 }
-.items-5 .control-button:nth-of-type(7),
-.items-5 .item:nth-of-type(7) {
+.items-7 .control-button:nth-of-type(7),
+.items-7 .item:nth-of-type(7) {
+    animation-delay: 26s
+}
+
+@keyframes controlAnimation-8 {
+    0% {
+        color: #ccc;
+        color: rgba(255, 255, 255, .4)
+    }
+
+    5.7%,
+    20% {
+        color: #fff;
+        color: rgba(255, 255, 255, .8)
+    }
+
+    25.7%,
+    100% {
+        color: #ccc;
+        color: rgba(255, 255, 255, .4)
+    }
+}
+
+@keyframes gallery2Animation-8 {
+    0% {
+        opacity: 0
+    }
+
+    5.7%,
+    20% {
+        opacity: 1
+    }
+
+    25.7%,
+    100% {
+        opacity: 0
+    }
+}
+
+
+.gallery2 .control-operator:nth-of-type(1):target~.item:nth-of-type(1) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.gallery2 .control-operator:nth-of-type(2):target~.item:nth-of-type(2) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.gallery2 .control-operator:nth-of-type(3):target~.item:nth-of-type(3) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.gallery2 .control-operator:nth-of-type(4):target~.item:nth-of-type(4) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.gallery2 .control-operator:nth-of-type(5):target~.item:nth-of-type(5) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(6):target~.item:nth-of-type(6) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(7):target~.item:nth-of-type(7) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(8):target~.item:nth-of-type(8) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.items-8.autoplay .control-button {
+    animation: controlAnimation-5 35s infinite
+}
+
+.items-8.autoplay .item {
+    animation: gallery2Animation-5 35s infinite
+}
+
+.items-8 .control-button:nth-of-type(1),
+.items-8 .item:nth-of-type(1) {
+    animation-delay: -2s
+}
+
+.items-8 .control-button:nth-of-type(2),
+.items-8 .item:nth-of-type(2) {
+    animation-delay: 5s
+}
+
+.items-8 .control-button:nth-of-type(3),
+.items-8 .item:nth-of-type(3) {
+    animation-delay: 12s
+}
+
+.items-8 .control-button:nth-of-type(4),
+.items-8 .item:nth-of-type(4) {
+    animation-delay: 19s
+}
+
+.items-8 .control-button:nth-of-type(5),
+.items-8 .item:nth-of-type(5) {
+    animation-delay: 26s
+}
+.items-8 .control-button:nth-of-type(6),
+.items-8 .item:nth-of-type(6) {
+    animation-delay: 26s
+}
+.items-8 .control-button:nth-of-type(7),
+.items-8 .item:nth-of-type(7) {
+    animation-delay: 26s
+}
+.items-8 .control-button:nth-of-type(8),
+.items-8 .item:nth-of-type(8) {
+    animation-delay: 26s
+}
+@keyframes controlAnimation-9 {
+    0% {
+        color: #ccc;
+        color: rgba(255, 255, 255, .4)
+    }
+
+    5.7%,
+    20% {
+        color: #fff;
+        color: rgba(255, 255, 255, .8)
+    }
+
+    25.7%,
+    100% {
+        color: #ccc;
+        color: rgba(255, 255, 255, .4)
+    }
+}
+
+@keyframes gallery2Animation-9 {
+    0% {
+        opacity: 0
+    }
+
+    5.7%,
+    20% {
+        opacity: 1
+    }
+
+    25.7%,
+    100% {
+        opacity: 0
+    }
+}
+
+
+.gallery2 .control-operator:nth-of-type(1):target~.item:nth-of-type(1) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.gallery2 .control-operator:nth-of-type(2):target~.item:nth-of-type(2) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.gallery2 .control-operator:nth-of-type(3):target~.item:nth-of-type(3) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.gallery2 .control-operator:nth-of-type(4):target~.item:nth-of-type(4) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.gallery2 .control-operator:nth-of-type(5):target~.item:nth-of-type(5) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(6):target~.item:nth-of-type(6) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(7):target~.item:nth-of-type(7) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(8):target~.item:nth-of-type(8) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(9):target~.item:nth-of-type(9) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.items-9.autoplay .control-button {
+    animation: controlAnimation-5 35s infinite
+}
+
+.items-9.autoplay .item {
+    animation: gallery2Animation-5 35s infinite
+}
+
+.items-9 .control-button:nth-of-type(1),
+.items-9 .item:nth-of-type(1) {
+    animation-delay: -2s
+}
+
+.items-9 .control-button:nth-of-type(2),
+.items-9 .item:nth-of-type(2) {
+    animation-delay: 5s
+}
+
+.items-9 .control-button:nth-of-type(3),
+.items-9 .item:nth-of-type(3) {
+    animation-delay: 12s
+}
+
+.items-9 .control-button:nth-of-type(4),
+.items-9 .item:nth-of-type(4) {
+    animation-delay: 19s
+}
+
+.items-9 .control-button:nth-of-type(5),
+.items-9 .item:nth-of-type(5) {
+    animation-delay: 26s
+}
+.items-9 .control-button:nth-of-type(6),
+.items-9 .item:nth-of-type(6) {
+    animation-delay: 26s
+}
+.items-9 .control-button:nth-of-type(7),
+.items-9 .item:nth-of-type(7) {
+    animation-delay: 26s
+}
+.items-9 .control-button:nth-of-type(8),
+.items-9 .item:nth-of-type(8) {
+    animation-delay: 26s
+}
+.items-9 .control-button:nth-of-type(9),
+.items-9 .item:nth-of-type(9) {
+    animation-delay: 26s
+}
+
+@keyframes controlAnimation-10 {
+    0% {
+        color: #ccc;
+        color: rgba(255, 255, 255, .4)
+    }
+
+    5.7%,
+    20% {
+        color: #fff;
+        color: rgba(255, 255, 255, .8)
+    }
+
+    25.7%,
+    100% {
+        color: #ccc;
+        color: rgba(255, 255, 255, .4)
+    }
+}
+
+@keyframes gallery2Animation-10 {
+    0% {
+        opacity: 0
+    }
+
+    5.7%,
+    20% {
+        opacity: 1
+    }
+
+    25.7%,
+    100% {
+        opacity: 0
+    }
+}
+
+
+.gallery2 .control-operator:nth-of-type(1):target~.item:nth-of-type(1) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.gallery2 .control-operator:nth-of-type(2):target~.item:nth-of-type(2) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.gallery2 .control-operator:nth-of-type(3):target~.item:nth-of-type(3) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.gallery2 .control-operator:nth-of-type(4):target~.item:nth-of-type(4) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.gallery2 .control-operator:nth-of-type(5):target~.item:nth-of-type(5) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(6):target~.item:nth-of-type(6) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(7):target~.item:nth-of-type(7) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(8):target~.item:nth-of-type(8) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(9):target~.item:nth-of-type(9) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(10):target~.item:nth-of-type(10) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.items-10.autoplay .control-button {
+    animation: controlAnimation-5 35s infinite
+}
+
+.items-10.autoplay .item {
+    animation: gallery2Animation-5 35s infinite
+}
+
+.items-10 .control-button:nth-of-type(1),
+.items-10 .item:nth-of-type(1) {
+    animation-delay: -2s
+}
+
+.items-10 .control-button:nth-of-type(2),
+.items-10 .item:nth-of-type(2) {
+    animation-delay: 5s
+}
+
+.items-10 .control-button:nth-of-type(3),
+.items-10 .item:nth-of-type(3) {
+    animation-delay: 12s
+}
+
+.items-10 .control-button:nth-of-type(4),
+.items-10 .item:nth-of-type(4) {
+    animation-delay: 19s
+}
+
+.items-10 .control-button:nth-of-type(5),
+.items-10 .item:nth-of-type(5) {
+    animation-delay: 26s
+}
+.items-10 .control-button:nth-of-type(6),
+.items-10 .item:nth-of-type(6) {
+    animation-delay: 26s
+}
+.items-10 .control-button:nth-of-type(7),
+.items-10 .item:nth-of-type(7) {
+    animation-delay: 26s
+}
+.items-10 .control-button:nth-of-type(8),
+.items-10 .item:nth-of-type(8) {
+    animation-delay: 26s
+}
+.items-10 .control-button:nth-of-type(9),
+.items-10 .item:nth-of-type(9) {
+    animation-delay: 26s
+}
+.items-10 .control-button:nth-of-type(10),
+.items-10 .item:nth-of-type(10) {
+    animation-delay: 26s
+}
+
+@keyframes controlAnimation-11 {
+    0% {
+        color: #ccc;
+        color: rgba(255, 255, 255, .4)
+    }
+
+    5.7%,
+    20% {
+        color: #fff;
+        color: rgba(255, 255, 255, .8)
+    }
+
+    25.7%,
+    100% {
+        color: #ccc;
+        color: rgba(255, 255, 255, .4)
+    }
+}
+
+@keyframes gallery2Animation-11 {
+    0% {
+        opacity: 0
+    }
+
+    5.7%,
+    20% {
+        opacity: 1
+    }
+
+    25.7%,
+    100% {
+        opacity: 0
+    }
+}
+
+
+.gallery2 .control-operator:nth-of-type(1):target~.item:nth-of-type(1) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.gallery2 .control-operator:nth-of-type(2):target~.item:nth-of-type(2) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.gallery2 .control-operator:nth-of-type(3):target~.item:nth-of-type(3) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.gallery2 .control-operator:nth-of-type(4):target~.item:nth-of-type(4) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.gallery2 .control-operator:nth-of-type(5):target~.item:nth-of-type(5) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(6):target~.item:nth-of-type(6) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(7):target~.item:nth-of-type(7) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(8):target~.item:nth-of-type(8) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(9):target~.item:nth-of-type(9) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(10):target~.item:nth-of-type(10) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(11):target~.item:nth-of-type(11) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.items-11.autoplay .control-button {
+    animation: controlAnimation-5 35s infinite
+}
+
+.items-11.autoplay .item {
+    animation: gallery2Animation-5 35s infinite
+}
+
+.items-11 .control-button:nth-of-type(1),
+.items-11 .item:nth-of-type(1) {
+    animation-delay: -2s
+}
+
+.items-11 .control-button:nth-of-type(2),
+.items-11 .item:nth-of-type(2) {
+    animation-delay: 5s
+}
+
+.items-11 .control-button:nth-of-type(3),
+.items-11 .item:nth-of-type(3) {
+    animation-delay: 12s
+}
+
+.items-11 .control-button:nth-of-type(4),
+.items-11 .item:nth-of-type(4) {
+    animation-delay: 19s
+}
+
+.items-11 .control-button:nth-of-type(5),
+.items-11 .item:nth-of-type(5) {
+    animation-delay: 26s
+}
+.items-11 .control-button:nth-of-type(6),
+.items-11 .item:nth-of-type(6) {
+    animation-delay: 26s
+}
+.items-11 .control-button:nth-of-type(7),
+.items-11 .item:nth-of-type(7) {
+    animation-delay: 26s
+}
+.items-11 .control-button:nth-of-type(8),
+.items-11 .item:nth-of-type(8) {
+    animation-delay: 26s
+}
+.items-11 .control-button:nth-of-type(9),
+.items-11 .item:nth-of-type(9) {
+    animation-delay: 26s
+}
+.items-11 .control-button:nth-of-type(10),
+.items-11 .item:nth-of-type(10) {
+    animation-delay: 26s
+}
+.items-11 .control-button:nth-of-type(11),
+.items-11 .item:nth-of-type(11) {
+    animation-delay: 26s
+}
+@keyframes controlAnimation-12 {
+    0% {
+        color: #ccc;
+        color: rgba(255, 255, 255, .4)
+    }
+
+    5.7%,
+    20% {
+        color: #fff;
+        color: rgba(255, 255, 255, .8)
+    }
+
+    25.7%,
+    100% {
+        color: #ccc;
+        color: rgba(255, 255, 255, .4)
+    }
+}
+
+@keyframes gallery2Animation-12 {
+    0% {
+        opacity: 0
+    }
+
+    5.7%,
+    20% {
+        opacity: 1
+    }
+
+    25.7%,
+    100% {
+        opacity: 0
+    }
+}
+
+
+.gallery2 .control-operator:nth-of-type(1):target~.item:nth-of-type(1) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.gallery2 .control-operator:nth-of-type(2):target~.item:nth-of-type(2) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.gallery2 .control-operator:nth-of-type(3):target~.item:nth-of-type(3) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.gallery2 .control-operator:nth-of-type(4):target~.item:nth-of-type(4) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.gallery2 .control-operator:nth-of-type(5):target~.item:nth-of-type(5) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(6):target~.item:nth-of-type(6) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(7):target~.item:nth-of-type(7) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(8):target~.item:nth-of-type(8) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(9):target~.item:nth-of-type(9) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(10):target~.item:nth-of-type(10) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(11):target~.item:nth-of-type(11) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(12):target~.item:nth-of-type(12) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.items-12.autoplay .control-button {
+    animation: controlAnimation-5 35s infinite
+}
+
+.items-12.autoplay .item {
+    animation: gallery2Animation-5 35s infinite
+}
+
+.items-12 .control-button:nth-of-type(1),
+.items-12 .item:nth-of-type(1) {
+    animation-delay: -2s
+}
+
+.items-12 .control-button:nth-of-type(2),
+.items-12 .item:nth-of-type(2) {
+    animation-delay: 5s
+}
+
+.items-12 .control-button:nth-of-type(3),
+.items-12 .item:nth-of-type(3) {
+    animation-delay: 12s
+}
+
+.items-12 .control-button:nth-of-type(4),
+.items-12 .item:nth-of-type(4) {
+    animation-delay: 19s
+}
+
+.items-12 .control-button:nth-of-type(5),
+.items-12 .item:nth-of-type(5) {
+    animation-delay: 26s
+}
+.items-12 .control-button:nth-of-type(6),
+.items-12 .item:nth-of-type(6) {
+    animation-delay: 26s
+}
+.items-12 .control-button:nth-of-type(7),
+.items-12 .item:nth-of-type(7) {
+    animation-delay: 26s
+}
+.items-12 .control-button:nth-of-type(8),
+.items-12 .item:nth-of-type(8) {
+    animation-delay: 26s
+}
+.items-12 .control-button:nth-of-type(9),
+.items-12 .item:nth-of-type(9) {
+    animation-delay: 26s
+}
+.items-12 .control-button:nth-of-type(10),
+.items-12 .item:nth-of-type(10) {
+    animation-delay: 26s
+}
+.items-12 .control-button:nth-of-type(11),
+.items-12 .item:nth-of-type(11) {
+    animation-delay: 26s
+}
+.items-12 .control-button:nth-of-type(12),
+.items-12 .item:nth-of-type(12) {
+    animation-delay: 26s
+}
+
+
+@keyframes controlAnimation-13 {
+    0% {
+        color: #ccc;
+        color: rgba(255, 255, 255, .4)
+    }
+
+    5.7%,
+    20% {
+        color: #fff;
+        color: rgba(255, 255, 255, .8)
+    }
+
+    25.7%,
+    100% {
+        color: #ccc;
+        color: rgba(255, 255, 255, .4)
+    }
+}
+
+@keyframes gallery2Animation-13 {
+    0% {
+        opacity: 0
+    }
+
+    5.7%,
+    20% {
+        opacity: 1
+    }
+
+    25.7%,
+    100% {
+        opacity: 0
+    }
+}
+
+
+.gallery2 .control-operator:nth-of-type(1):target~.item:nth-of-type(1) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.gallery2 .control-operator:nth-of-type(2):target~.item:nth-of-type(2) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.gallery2 .control-operator:nth-of-type(3):target~.item:nth-of-type(3) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.gallery2 .control-operator:nth-of-type(4):target~.item:nth-of-type(4) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.gallery2 .control-operator:nth-of-type(5):target~.item:nth-of-type(5) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(6):target~.item:nth-of-type(6) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(7):target~.item:nth-of-type(7) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(8):target~.item:nth-of-type(8) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(9):target~.item:nth-of-type(9) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(10):target~.item:nth-of-type(10) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(11):target~.item:nth-of-type(11) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(12):target~.item:nth-of-type(12) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(13):target~.item:nth-of-type(13) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.items-13.autoplay .control-button {
+    animation: controlAnimation-5 35s infinite
+}
+
+.items-13.autoplay .item {
+    animation: gallery2Animation-5 35s infinite
+}
+
+.items-13 .control-button:nth-of-type(1),
+.items-13 .item:nth-of-type(1) {
+    animation-delay: -2s
+}
+
+.items-13 .control-button:nth-of-type(2),
+.items-13 .item:nth-of-type(2) {
+    animation-delay: 5s
+}
+
+.items-13 .control-button:nth-of-type(3),
+.items-13 .item:nth-of-type(3) {
+    animation-delay: 12s
+}
+
+.items-13 .control-button:nth-of-type(4),
+.items-13 .item:nth-of-type(4) {
+    animation-delay: 19s
+}
+
+.items-13 .control-button:nth-of-type(5),
+.items-13 .item:nth-of-type(5) {
+    animation-delay: 26s
+}
+.items-13 .control-button:nth-of-type(6),
+.items-13 .item:nth-of-type(6) {
+    animation-delay: 26s
+}
+.items-13 .control-button:nth-of-type(7),
+.items-13 .item:nth-of-type(7) {
+    animation-delay: 26s
+}
+.items-13 .control-button:nth-of-type(8),
+.items-13 .item:nth-of-type(8) {
+    animation-delay: 26s
+}
+.items-13 .control-button:nth-of-type(9),
+.items-13 .item:nth-of-type(9) {
+    animation-delay: 26s
+}
+.items-13 .control-button:nth-of-type(10),
+.items-13 .item:nth-of-type(10) {
+    animation-delay: 26s
+}
+.items-13 .control-button:nth-of-type(11),
+.items-13 .item:nth-of-type(11) {
+    animation-delay: 26s
+}
+.items-13 .control-button:nth-of-type(12),
+.items-13 .item:nth-of-type(12) {
+    animation-delay: 26s
+}
+.items-13 .control-button:nth-of-type(13),
+.items-13 .item:nth-of-type(13) {
+    animation-delay: 26s
+}
+
+@keyframes controlAnimation-14 {
+    0% {
+        color: #ccc;
+        color: rgba(255, 255, 255, .4)
+    }
+
+    5.7%,
+    20% {
+        color: #fff;
+        color: rgba(255, 255, 255, .8)
+    }
+
+    25.7%,
+    100% {
+        color: #ccc;
+        color: rgba(255, 255, 255, .4)
+    }
+}
+
+@keyframes gallery2Animation-14 {
+    0% {
+        opacity: 0
+    }
+
+    5.7%,
+    20% {
+        opacity: 1
+    }
+
+    25.7%,
+    100% {
+        opacity: 0
+    }
+}
+
+
+.gallery2 .control-operator:nth-of-type(1):target~.item:nth-of-type(1) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.gallery2 .control-operator:nth-of-type(2):target~.item:nth-of-type(2) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.gallery2 .control-operator:nth-of-type(3):target~.item:nth-of-type(3) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.gallery2 .control-operator:nth-of-type(4):target~.item:nth-of-type(4) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.gallery2 .control-operator:nth-of-type(5):target~.item:nth-of-type(5) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(6):target~.item:nth-of-type(6) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(7):target~.item:nth-of-type(7) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(8):target~.item:nth-of-type(8) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(9):target~.item:nth-of-type(9) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(10):target~.item:nth-of-type(10) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(11):target~.item:nth-of-type(11) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(12):target~.item:nth-of-type(12) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(13):target~.item:nth-of-type(13) {
+    pointer-events: auto;
+    opacity: 1
+}
+.gallery2 .control-operator:nth-of-type(14):target~.item:nth-of-type(14) {
+    pointer-events: auto;
+    opacity: 1
+}
+
+.items-14.autoplay .control-button {
+    animation: controlAnimation-5 35s infinite
+}
+
+.items-14.autoplay .item {
+    animation: gallery2Animation-5 35s infinite
+}
+
+.items-14 .control-button:nth-of-type(1),
+.items-14 .item:nth-of-type(1) {
+    animation-delay: -2s
+}
+
+.items-14 .control-button:nth-of-type(2),
+.items-14 .item:nth-of-type(2) {
+    animation-delay: 5s
+}
+
+.items-13 .control-button:nth-of-type(3),
+.items-13 .item:nth-of-type(3) {
+    animation-delay: 12s
+}
+
+.items-14 .control-button:nth-of-type(4),
+.items-14 .item:nth-of-type(4) {
+    animation-delay: 19s
+}
+
+.items-14 .control-button:nth-of-type(5),
+.items-14 .item:nth-of-type(5) {
+    animation-delay: 26s
+}
+.items-14 .control-button:nth-of-type(6),
+.items-14 .item:nth-of-type(6) {
+    animation-delay: 26s
+}
+.items-14 .control-button:nth-of-type(7),
+.items-14 .item:nth-of-type(7) {
+    animation-delay: 26s
+}
+.items-14 .control-button:nth-of-type(8),
+.items-14 .item:nth-of-type(8) {
+    animation-delay: 26s
+}
+.items-14 .control-button:nth-of-type(9),
+.items-14 .item:nth-of-type(9) {
+    animation-delay: 26s
+}
+.items-14 .control-button:nth-of-type(10),
+.items-14 .item:nth-of-type(10) {
+    animation-delay: 26s
+}
+.items-14 .control-button:nth-of-type(11),
+.items-14 .item:nth-of-type(11) {
+    animation-delay: 26s
+}
+.items-14 .control-button:nth-of-type(12),
+.items-14 .item:nth-of-type(12) {
+    animation-delay: 26s
+}
+.items-14 .control-button:nth-of-type(13),
+.items-14 .item:nth-of-type(13) {
+    animation-delay: 26s
+}
+.items-14 .control-button:nth-of-type(14),
+.items-14 .item:nth-of-type(14) {
     animation-delay: 26s
 }

@@ -601,6 +601,8 @@ footer .wrapper:after {
 .material-icons.md-48 
 { font-size: 48px; 
     color: #111;
+    scroll-behavior: smooth;
+    scroll-margin-top: .8em;
 }
 #golpes
 {
